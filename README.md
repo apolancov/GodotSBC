@@ -55,5 +55,5 @@ and replace with this, put #include in include section
 #endif
 ```
 
-scons command for compile
+##scons command for compile
 scons platform=sbc target=template_release use_lto=no use_llvm=yes -j$(nproc) arch=arm64 tools=no		
