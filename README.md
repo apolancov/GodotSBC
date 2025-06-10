@@ -1,6 +1,12 @@
 # GodotSBC
 ## Godot SDL 2 Implementation
 
+## required library
+```
+sudo apt-get install build-essential scons pkg-config \
+  clang llvm lld libsdl2-dev libgles2-mesa-dev
+```
+
 this don't work out of the box, you need to modify the Godot source code for make it's work.
 
 first, add a compiler flag condition on rasterizerGLES3 on constructor method
