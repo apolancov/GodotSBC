@@ -1,5 +1,5 @@
-#GodotSBC
-##Godot SDL 2 Implementation
+# GodotSBC
+## Godot SDL 2 Implementation
 
 this don't work out of the box, you need to modify the Godot source code for make it's work.
 
@@ -55,5 +55,5 @@ and replace with this, put #include in include section
 #endif
 ```
 
-##scons command for compile
+## scons command for compile
 scons platform=sbc target=template_release use_lto=no use_llvm=yes -j$(nproc) arch=arm64 tools=no		
