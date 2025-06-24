@@ -59,6 +59,7 @@ and replace with this, put #include in include section
 			glad_loaded = true;
 		}
 #endif
+}
 ```
 
 ## scons command for compile
